@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.M6_ConditionLibraryPage">
+        <methods>
+          <include name="ConditionLibrary_SeeAll"/>
+          <include name="closewindow"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.test.M6_ConditionLibraryPage -->
+      <class name="com.test.M1_HomePage">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="MentalHealth"/>
+          <include name="closewindow"/>
+          <include name="Cancer"/>
+          <include name="WhoWeServe"/>
+        </methods>
+      </class> <!-- com.test.M1_HomePage -->
+      <class name="com.test.M7_AboutPage">
+        <methods>
+          <include name="NewsRoom_card5"/>
+          <include name="NewsRoom_card6"/>
+          <include name="closewindow"/>
+          <include name="NewsRoom_card3"/>
+          <include name="NewsRoom_card4"/>
+          <include name="NewsRoom_card1"/>
+          <include name="NewsRoom_card2"/>
+          <include name="aboutUS"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.test.M7_AboutPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
